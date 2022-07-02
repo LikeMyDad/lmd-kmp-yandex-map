@@ -1,3 +1,4 @@
+enableFeaturePreview("VERSION_CATALOGS")
 pluginManagement {
     repositories {
         google()
@@ -6,5 +7,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "YandexMap"
-include(":shared")
+rootProject.name = "yandex-map"
+include(":maps-yandex-lite")
